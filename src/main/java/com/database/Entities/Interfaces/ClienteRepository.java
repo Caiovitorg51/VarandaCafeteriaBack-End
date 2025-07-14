@@ -7,6 +7,7 @@ import java.util.List;
 
 
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
-    // métodos prontos como findAll(), findById(), save(), deleteById() já estão implementados por JpaRepository
+    // Inclui métodos prontos como findAll(), findById(), save(), deleteById() já estão implementados por JpaRepository
+
 }
 
